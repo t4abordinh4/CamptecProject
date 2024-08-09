@@ -1,0 +1,101 @@
+/* Define a cor de fundo do corpo para um gradiente linear do cinza escuro para o cinza claro */
+body{
+    background: linear-gradient(to right, rgb(37, 47, 37),rgb(43, 100, 40),rgb(18, 69, 24));
+    
+    /* Define a cor do texto como branco */
+    color:rgb(255, 255, 255);
+    
+    /* Define a margem e o preenchimento do body como zero (cola acima e à esquerda da tela). */
+    margin:0;
+    padding:0;
+    
+    /* Centraliza os textos dentro do body */
+    text-align: center;
+    
+    /* Define a fonte como Helvetica */
+    font-family: Helvetica;
+}
+
+
+header{
+    display: flex; /* deixa eles ums dos lados dos outros*/
+    justify-content: space-around; /* ele deixa todos com os mesmo espaçamento*/
+    justify-content: space-between; /* quase a mesma coisa, mas tambem ele contabiliza as bordas*/
+    padding: 1.5%; /*espaçamento das mergens dos cantos*/
+    border-bottom: 1px solid white; /* cria borda na parte inferior do elemento */
+    align-items: center; /* deixa no centro*/
+
+}
+header img{
+    position: relative;
+    
+    width: 50%; /*largura*/
+
+    height: 70%; /* altura */
+}
+
+/* Define o estilo da lista não ordenada dentro do cabeçalho */
+header ul{
+    list-style: none; /* Exclui itens / numerão / bolinhas da lista */
+    display:flex; /* Define os elementos como flexíveis (coloca os elementaos lado a lado)*/
+}
+
+/* Define o estilo dos itens da lista dentro do cabeçalho, com margem à direita e tamanho de fonte de 20 pixels */
+header ul li{
+    margin-right: 20px; /*margem na direita do item da lista que está no cabeçalho*/
+    font-size: 20px; /*tamanho da fonte*/
+}
+
+/* Define o estilo do link dentro dos itens da lista do cabeçalho quando o mouse está em cima dele, com cor azul claro */
+header ul li a:hover{
+    color:  rgb(18, 220, 28);;
+}
+
+main{ 
+    text-align: left;
+    width: auto;
+    height: 500px;
+}
+.lista2 ul{
+    position: relative;
+    width: 1500px;
+    height: 450px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    left: 3.5%;
+}
+/*nome de baixo*/
+.lista2 ul li{ 
+    background-color: rgb(37, 47, 37);
+    list-style: none; /* tira a bolinha da lista*/
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.lista2 ul li img{
+    width: 350px;
+    height: auto;
+    border-radius: 4%;
+}
+
+.lista2 ul li a{
+    text-decoration: none; /*retira a barra de link*/
+    color: rgb(255, 255, 255); /* cor */
+}
+
+.lista2 ul li a:hover{
+    color: rgb(18, 220, 28);
+}
+
+/* Define o estilo do rodapé, com fundo preto, preenchimento de 20 pixels, borda superior e margem superior */
+footer{
+    background-color:rgb(37, 56, 32);
+    padding:20px;
+    border-top: 1px solid white;
+    margin-top:20px; /*faz o elemento desce*/
+    position: relative;
+    top: 30px;
+}

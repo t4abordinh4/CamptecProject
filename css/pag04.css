@@ -1,0 +1,223 @@
+body{
+    background: linear-gradient(to right, rgb(37, 47, 37),rgb(43, 100, 40),rgb(18, 69, 24));
+    
+    /* Define a cor do texto como branco */
+    color:rgb(255, 255, 255);
+    
+    /* Define a margem e o preenchimento do body como zero (cola acima e à esquerda da tela). */
+    margin:0;
+    padding:0;
+    
+    /* Define a fonte como Helvetica */
+    font-family: Helvetica;
+}
+
+.titulo h1{
+    min-width: 470px;
+	width: 100%;
+	height: 80px;
+    font-size: 90px;
+    position: relative;
+    text-align: center;
+}
+
+.txto{
+    height: 350px;
+    width: 700px;
+    text-align: justify;
+    margin: 10px; 
+    font-size: 20px;
+    float: left;
+    position: relative;
+}
+
+.ia{
+    float: right;
+    height: 420px;
+    width: 520px;
+    position: relative;
+    left: 1000px;
+    top: -40vh;
+}
+.fses{ /* Pode ser reposicionado de acordo com o fluxo html (bloco acima) e a esquerda.*/
+    position: absolute;
+    top:70vh;
+    height:40px ;
+    width:900px ;
+    margin: 10px;
+}
+.sis{
+    font-size:90px ;
+    color:rgb(205, 254, 208) ;
+    height: 190px;
+    width: 630px;
+    border-bottom: 2px solid white;
+    margin-top: 60vh;
+}
+
+.toicos{
+    float: left;
+    width: 500px;
+    height: 170px;
+    font-size: 20px;
+    position: relative;
+    bottom: 250px;
+    margin: 10px;
+    top: -20vh;
+}
+.tet{
+    font-size: 90px;
+    height: 40vh;
+    width: 65vh;
+    margin: 10px;
+    color:rgb(205, 254, 208) ;
+    position: relative;
+    float: right;
+    top: -55vh;
+}
+
+.tx{
+    font-size: 20px;
+    margin: 10px;
+    width: 850px;
+    height: 89vh;
+    border-bottom: 2px solid white;
+    margin-top: -60vh;
+    float: right;
+    margin-left: 100%;
+
+}
+.ar{
+    font-size: 40px;
+    height: 130px;
+    width: 800px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+    color:rgb(205, 254, 208);
+    float: right;
+    position: absolute;
+}
+.ccc{
+    display: flex;
+    padding-left: 42% ;
+    gap: 0;
+}
+.ae{
+    font-size: 20px;
+    width: 790px;
+    height: 530px;
+    float: right;
+    margin-top: 120px;
+
+}
+.prepacao{
+    font-size: 40px;
+    height: 30vh;
+    width: 70vh;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+    color:rgb(205, 254, 208);
+    float: left;
+    margin-top: -50vh;
+}
+.pr{
+    font-size: 20px;
+    width: 80vh;
+    height: 140vh;
+    float: left;
+    margin: 10px;
+    margin-right: 100%;
+    margin-top: -25vh;
+}
+.plntio{
+    font-size: 90px;
+    height: 30vh;
+    width: 70vh;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+    color:rgb(205, 254, 208);
+    float: right;
+    margin-top: -85vh;
+    text-align: center;
+}
+
+.pl{
+    font-size: 20px;
+    width: 90vh;
+    height: 150vh;
+    float: right;
+    margin: 10px;
+    margin-top: -50vh;
+    margin-left: 100%;
+    border-bottom: 2px solid white;
+}
+.pagas{
+    font-size: 40px;
+    height: 30vh;
+    width: 70vh;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+    color:rgb(205, 254, 208);
+    float: left;
+    margin-top: -110vh;
+}
+.pa{
+    font-size: 20px;
+    width: 90vh;
+    height: 139vh;
+    float: left;
+    margin: 10px;
+    margin-top: -85vh;
+    margin-right: 100%;
+}
+.tenologia{
+    font-size: 90px;
+    height: 30vh;
+    width: 90vh;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+    color:rgb(205, 254, 208);
+    float: right;
+    margin-top: -75vh;
+    text-align: center;
+}
+.tn{
+    font-size: 20px;
+    width: 90vh;
+    height: 43vh;
+    float: right;
+    margin: 10px;
+    margin-top: -40vh;
+    margin-left: 100%;
+}
+.ipo{
+    float: left;
+    height: 420px;
+    width: 520px;
+    position: relative;
+    top: -75vh;
+    margin: 10px;
+}
+
+.ipo h3{
+    font-size: 20px;
+    width: 90vh;
+}
+.href{
+    margin-top: 450vh;
+}
+.im{
+    float: left;
+    height: 420px;
+    width: 520px;
+    position: relative;
+    top: -60vh;
+    margin-top: 60vh;
+    padding-right: 100vh;
+    margin: 10px;
+}

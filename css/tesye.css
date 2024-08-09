@@ -1,0 +1,619 @@
+body{
+    background: linear-gradient(to right, rgb(37, 47, 37),rgb(43, 100, 40),rgb(18, 69, 24));
+    color:rgb(255, 255, 255);
+    margin:0;
+    padding:0;
+    font-family: Helvetica;
+    margin: 10px;
+    
+}
+ .titulo h1{
+    position: relative;
+    min-width: 470px;
+	width: 100%;
+	height: 80px;
+    font-size: 100px;
+    text-align: center;
+ }
+ 
+
+
+.imagem {
+    position: relative;
+    width: 100px;
+    display:block;
+    margin-right: 10px;
+    margin: 20px;
+    width: 50%;
+    float: left;
+
+}
+.imagem img{
+    position: relative;
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    
+}
+.imagem h3{
+    position: relative;
+    height: 250px;
+    width: 1300px;
+    text-align: justify;
+    margin: 10px; 
+    font-size: 25px;
+}
+
+.fases h1 {
+    position: relative;
+    color: white;
+    display: inline-block;
+    text-align: justify;
+    font-size: 25px;
+    width: 1000px;
+    height:2px;
+}
+
+.cincofases h1{
+    position: relative;
+    min-width: 400px;
+	width: 40%;
+	height: 50px;
+    font-size: 90px;
+    margin-right: 2px;
+    top: 10px;
+   
+}
+
+.fazes{
+    position: relative;
+    width: 300px; ;
+    height: 275px;
+   
+}
+
+
+
+.imagemclima{
+    float: right;
+    height: 400px;
+    width: 550px;
+    position: relative;
+    top:-200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.clima h4{
+    top: -180px;
+    float: right;
+    width: 570px;
+    height:400px;
+    font-size: 20px;
+    position: relative;
+    bottom: 390px;
+    text-align: justify;
+    
+}
+.clima h2{
+    top:-160px;
+    float:right;
+    width: 550px;
+    height: 60px;
+    font-size: 70px;
+    position: relative;
+    bottom: 250px;
+    margin: 20px;
+
+}
+
+
+.topicos{
+    top: -45px;
+    float:left;
+    width: 700px;
+    height: 170px;
+    font-size: 20px;
+    position: relative;
+    bottom: 250px;
+    margin: 20px;
+
+}
+.topicos h3{
+    font-size: 35px;
+    position: relative;
+}
+
+.area h2{
+    top: 750px;
+    float:left;
+    width: 700px;
+    height: 100px;
+    font-size: 60px;
+    position: relative;
+    bottom: 250px;
+    margin: 20px;
+    
+}
+.area h4{
+    top: 690px;
+    text-align: justify;
+    float:left;
+    width: 700px;
+    height: 370px;
+    font-size: 20px;
+    position: relative;
+    bottom: 250px;
+    margin: 20px;
+   
+}
+.solo{
+ float: right;
+position: relative;
+}
+
+.solo h2{
+    top: 60px;
+    float:right;
+    width: 550px;
+    height: 60px;
+    font-size: 35px;
+    position: relative;
+    bottom: 250px;
+    margin: 20px;
+    }
+
+.solo h4{
+    top: 110px;
+    float: right;
+    width: 570px;
+    height:520px;
+    font-size: 20px;
+    position: relative;
+    left: 600px;
+    bottom: 250px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.plantio h2{
+    top: 120px;
+    float:right;
+    width: 550px;
+    height: 60px;
+    font-size: 70px;
+    position: relative;
+    bottom: 250px;
+    margin: 20px;
+
+}
+
+.plantio h4{
+    top: 200px;
+    float: right;
+    width: 570px;
+    height:520px;
+    font-size: 20px;
+    position: relative;
+    left: 600px;
+    bottom: 250px;
+    margin: 20px;
+    text-align: justify;
+
+
+}
+
+.cultivo h3{
+    right: 770px;
+    float:left;
+    width: 230px;
+    height: 70px;
+    font-size: 40px;
+    position: relative;
+    bottom: 150px;
+    margin: 20px;
+   
+}
+
+
+.cultivo h4{
+    
+    float: left;
+    width: 700px;
+    height: 370px;
+    font-size: 20px;
+    position: relative;
+    bottom: 310px;
+    margin: 20px;
+    text-align: justify;
+
+
+}
+ .cultivo h2{
+    top: -390px;
+    float:left;
+    width: 730px;
+    height: 180px;
+    font-size: 70px;
+    position: relative;
+    bottom: 280px;
+    margin: 20px;
+   
+ }
+
+.pragas h4{
+    float: left;
+    width: 700px;
+    height:540px;
+    font-size: 20px;
+    position: relative;
+    bottom: 430px;
+    margin: 20px;
+    text-align: justify; 
+}
+
+.pragas h3{
+    float:left;
+    width: 580px;
+    height: 50px;
+    font-size: 37px;
+    position: relative;
+    bottom: 400px;
+    margin: 20px;
+    
+}
+
+.preventivo h3{
+    top: -1150px;
+    float:right;
+    width: 550px;
+    height: 200px;
+    font-size: 40px;
+    position: relative;
+    bottom: 300px;
+    margin: 20px;
+    
+
+}
+
+.preventivo h4{
+    top: -950px;
+    float: right;
+    width: 560px;
+    height:330px;
+    font-size: 20px;
+    position: relative;
+    bottom: 400px;
+    left: 45%;
+    margin: 20px;
+    text-align: justify; 
+   
+}
+
+.preventivo img{
+    top: -900px;
+    float: right;
+    width: 560px;
+    height:330px;
+    font-size: 20px;
+    position: relative;
+    bottom: 400px;
+    margin: 20px;
+    text-align: justify; 
+    border-radius: 5px;
+   
+}
+
+.colheita h3{
+    right: 770px;
+    float:left;
+    width: 230px;
+    height: 70px;
+    font-size: 40px;
+    position: relative;
+    bottom: 990px;
+    margin: 20px;
+
+}
+
+.colheita {
+ 
+    float: left;
+    width: 700px;
+    height: 370px;
+    font-size: 20px;
+    position: relative;
+    bottom: 1450px;
+    margin: 20px;
+    text-align: justify;
+
+}
+
+.tecnologia h2{
+    top: -1230px;
+    right: 770px;
+    float:left;
+    width: 230px;
+    height: 70px;
+    font-size: 90px;
+    position: relative;
+    bottom: 995px;
+    margin: 40px;
+}
+.tecnologia h3{
+    top: -1650px;
+    float: left;
+    width: 1250px;
+    height:540px;
+    font-size: 70px;
+    position: relative;
+    bottom: 430px;
+    margin: 20px;
+    text-align: justify;
+
+    
+}
+
+.tecnologia h4{
+    top: -1500px;
+    float: left;
+    width: 700px;
+    height:540px;
+    font-size: 20px;
+    position: relative;
+    bottom: 430px;
+    margin: 20px;
+    text-align: justify; 
+}
+
+.numero1 h1{
+
+    top: -1960px;
+    float: left;
+    width: 700px;
+    height:540px;
+    font-size: 30px;
+    position: relative;
+    bottom: 430px;
+    margin: 20px;
+    text-align: justify;
+
+
+
+}
+.tecnologia p{
+    top: -10px;
+    float: left;
+    width: 1200px;
+    height:590px;
+    font-size: 20px;
+    position: relative;
+    bottom: 450px;
+    margin: 20px;
+    text-align: justify; 
+    right: 20px;
+
+
+}
+
+.numero1 h4{
+    top: -2500px;
+    float: left;
+    width: 650px;
+    height:540px;
+    font-size: 20px;
+    position: relative;
+    bottom: 430px;
+    margin: 20px;
+    text-align: justify; 
+}
+
+
+.img1 img{
+    right: 700px;
+    top: -2380px;
+    float: left;
+    width: 270px;
+    height:250px;
+    font-size: 20px;
+    position: relative;
+    bottom: 480px;
+    margin: 20px;
+    text-align: justify; 
+    border-radius: 5px;
+    display:inline-flex;
+}
+
+.img2 img{
+    right: 700px;
+    top: -2380px;
+    float: left;
+    width: 270px;
+    height:250px;
+    font-size: 20px;
+    position: relative;
+    bottom: 490px;
+    margin: 20px;
+    text-align: justify; 
+    border-radius: 5px;
+    display:inline-flex;
+}
+
+.valor1{
+    top: -2720px;
+    float: left;
+    width: 650px;
+    height:540px;
+    font-size: 20px;
+    position: relative;
+    bottom: 430px;
+    margin: 20px;
+    text-align: justify; 
+}
+
+.numero2 h1{
+    top: -3125px;
+    float: right;
+    width: 500px;
+    height:40px;
+    font-size: 30px;
+    position: relative;
+    bottom: 430px;
+    margin: 20px;
+    text-align: justify;
+    left: -60px;
+}
+.numero2 h4{
+    top: -3165px;
+    float: right;
+    width: 560px;
+    height:100px;
+    font-size: 20px;
+    position: relative;
+    bottom: 430px;
+    margin: 20px;
+    text-align: justify; 
+
+}
+
+.image1 img{
+   
+    top: -3160px;
+    float: right;
+    width: 270px;
+    height:250px;
+    font-size: 20px;
+    position: relative;
+    bottom: 480px;
+    margin: 20px;
+    text-align: justify; 
+    border-radius: 5px;
+    display:inline-flex;
+}
+
+.image2 img{
+    
+    top: -3160px;
+    float: right;
+    width: 270px;
+    height:250px;
+    font-size: 20px;
+    position: relative;
+    bottom: 490px;
+    margin: 20px;
+    text-align: justify; 
+    border-radius: 5px;
+    display:inline-flex;
+}
+
+.valor2 h4{
+    top: -3180px;
+    float: right;
+    width: 560px;
+    height:100px;
+    font-size: 20px;
+    position: relative;
+    bottom: 430px;
+    margin: 20px;
+    text-align: justify; 
+}
+
+.numero3 h1{
+    right: 90px;
+    top: -3240px;
+    float: left;
+    width: 700px;
+    height:540px;
+    font-size: 30px;
+    position: relative;
+    bottom: 480px;
+    margin: 20px;
+    text-align: justify;
+ left: 5px;
+}
+
+.numero3 h4{
+    top: -3775px;
+    float: left;
+    width: 650px;
+    height:540px;
+    font-size: 20px;
+    position: relative;
+    bottom: 420px;
+    margin: 20px;
+    text-align: justify; 
+
+}
+
+.imagem1 img{
+    right: 700px;
+    top: -3680px;
+    float: left;
+    width: 270px;
+    height:250px;
+    font-size: 20px;
+    position: relative;
+    bottom: 480px;
+    margin: 20px;
+    text-align: justify; 
+    border-radius: 5px;
+    display:inline-flex;
+}
+
+.imagem2 img{
+    right: 700px;
+    top: -3680px;
+    float: left;
+    width: 270px;
+    height:250px;
+    font-size: 20px;
+    position: relative;
+    bottom: 490px;
+    margin: 20px;
+    text-align: justify; 
+    border-radius: 5px;
+    display:inline-flex;
+}
+
+.valor3{
+    top: -4015px;
+    float: left;
+    width: 650px;
+    height:540px;
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+    margin: 20px;
+    text-align: justify; 
+    left: 5px;
+}
+
+.numero4 h1{
+    top: -4395px;
+    float: right;
+    width: 540px;
+    height:40px;
+    font-size: 30px;
+    position: relative;
+    bottom: 430px;
+    margin: 20px;
+    text-align: justify;
+    left: -60px;
+    left: -20px;
+}
+.numero4 h4{
+    top: -4430px;
+    float: right;
+    width: 560px;
+    height:100px;
+    font-size: 20px;
+    position: relative;
+    bottom: 430px;
+    margin: 20px;
+    text-align: justify; 
+
+}
+.href{
+    margin-top: 500vh;
+}
